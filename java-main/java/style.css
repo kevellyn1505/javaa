@@ -1,0 +1,75 @@
+/* Estilos gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Exemplo de uma fonte mais bonita */
+    background-image: url('plano-de-fundo-doodle-abstrato_23-2149315781.avif');
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    background-size: cover; /* Redimensiona a imagem para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem na tela */
+}
+
+#container {
+    width: 5%;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 10-px; /* Bordas arredondadas */
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+h1 {
+    color: #ff69b4;
+}
+
+h2 {
+    color: #ff69b4;
+}
+
+/* Estilo para campos de entrada */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="tel"] {
+    width: calc(100% - 22px);
+    padding: 8px; /* Redução do padding para campos de entrada */
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo para botões */
+button {
+    background-color: #ff69b4;
+    color: #fff;
+    padding: 8px 16px; /* Ajuste do padding para tornar os botões menores */
+    border: none;
+    cursor: pointer;
+    width: auto; /* Alteração para que os botões tenham largura automática */
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #d34685;
+}
+
+/* Estilo para a área de consulta */
+#resultadoConsulta {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+}
+
+/* Estilo para a mensagem de sucesso */
+.success-message {
+    color: #4CAF50; /* Verde */
+}
+
+/* Estilo para a mensagem de erro */
+.error-message {
+    color: #f44336; /* Vermelho */
+}
